@@ -1,12 +1,12 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-import thunk from "redux-thunk";
+import CharacterList from "./components/CharaterList"
 
 function App() {
+  
   return (
     <div className="App">
-    
+    <CharacterList />
     </div>
   );
 }
